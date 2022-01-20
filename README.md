@@ -1,15 +1,10 @@
-# Basic Sample Hardhat Project
+# WAVE PORTAL
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+https://waveportal.madhav-vats.repl.co/
 
-Try running some of the following tasks:
+Wave Portal is a fullstack Web3 application written in JavaScript and Solidity, with frameworks including React and Hardhat. 
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+It is build on the Ethereum blockchain, with fully-functional read & write capabilites. 
+
+The application allows for users to connect their MetaMask ETH wallets and send a "wave" and a message to the smart contract, where it will be stored. The application also randomizes ETH payouts to users of the site, and has a built-in cooldown functionality to prevent exploitation. 
+
