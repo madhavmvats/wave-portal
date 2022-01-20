@@ -1,0 +1,107 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(255, 255, 255)
+  
+}
+
+.bio {
+  text-align: center;
+  color: rgb(170, 170, 170);
+  margin-top: 16px;
+  font-family: 'Gotham', sans-serif;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  background-color: rgb(30, 215, 96);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+a:link {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  outline-style: solid;
+  outline-color:white
+}
+
+a:visited {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  outline-style: solid;
+  outline-color:white
+}
+
+a:hover {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  outline-style: solid;
+  outline-color:white
+  
+}
+
+a:active {
+cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+ width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  outline-style: solid;
+  outline-color:white
+}
